@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: GitHub Community Support
-    url: https://github.com/orgs/community/discussions
+  - name: xmera Circle » Community Support
+    url: https://circle.xmera.de/projects/support/boards
     about: Please ask and answer questions here.
-  - name: GitHub Security Bug Bounty
-    url: https://bounty.github.com/
+  - name: xmera Solutions Security Bug Report
+    url: mailto:security@xmera.de
     about: Please report security vulnerabilities here.
