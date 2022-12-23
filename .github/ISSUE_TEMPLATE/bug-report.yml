@@ -26,7 +26,7 @@ body:
       value: 
     validations:
       required: true
-   - type: textarea
+  - type: textarea
     id: current-behavior
     attributes:
       label: What has happend instead?
@@ -35,7 +35,7 @@ body:
       value: 
     validations:
       required: true
-   - type: textarea
+  - type: textarea
     id: possible-solution
     attributes:
       label: What could be a possible solution?
@@ -44,7 +44,7 @@ body:
       value: 
     validations:
       required: true
-   - type: textarea
+  - type: textarea
     id: reproduction
     attributes:
       label: How can we reproduce the problem?
