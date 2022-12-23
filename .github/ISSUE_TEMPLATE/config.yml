@@ -3,6 +3,3 @@ contact_links:
   - name: xmera Circle » Community Support
     url: https://circle.xmera.de/projects/support/boards
     about: Please ask and answer questions here.
-  - name: xmera Solutions Security Bug Report
-    url: mailto:security@xmera.de
-    about: Please report security vulnerabilities here.
