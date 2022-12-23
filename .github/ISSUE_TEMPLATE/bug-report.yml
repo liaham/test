@@ -1,9 +1,9 @@
 name: Bug Report
 description: File a bug report
 title: "[Bug]: "
-labels: ["bug", "triage"]
+labels: ["bug"]
 assignees:
-  - octocat
+  - liaham
 body:
   - type: markdown
     attributes:
@@ -18,19 +18,55 @@ body:
     validations:
       required: false
   - type: textarea
-    id: what-happened
+    id: expected-behavior
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: What did you expect?
+      description: Please tell us, what did you expect to happen?
+      placeholder: Tell us what should have happend!
+      value: 
+    validations:
+      required: true
+   - type: textarea
+    id: current-behavior
+    attributes:
+      label: What has happend instead?
+      description: Please tell us, what has happend instead?
+      placeholder: Tell us what has happend!
+      value: 
+    validations:
+      required: true
+   - type: textarea
+    id: possible-solution
+    attributes:
+      label: What could be a possible solution?
+      description: Please tell us, how do you think the problem could be solved?
+      placeholder: Tell us what is your idea for a possible solution!
+      value: 
+    validations:
+      required: true
+   - type: textarea
+    id: reproduction
+    attributes:
+      label: How can we reproduce the problem?
+      description: Please tell us, what steps to execute to reproduce the issue.
+      placeholder: Tell us step by step what we need to do!
+      value: 
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: In what environment are you running the plugin?
+      description: Please copy and paste your environment information as displayed in Administration » Information or run `bin/about` in the root dir of your Redmine instance. 
+      placeholder: Tell us step by step what we need to do!
+      value: 
     validations:
       required: true
   - type: dropdown
     id: version
     attributes:
       label: Version
-      description: What version of our software are you running?
+      description: What version of our plugin are you running?
       options:
         - 1.0.2 (Default)
         - 1.0.3 (Edge)
@@ -56,7 +92,7 @@ body:
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://circle.xmera.de/projects/contributors-guide/wiki/Code-of-conduct)
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
